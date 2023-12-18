@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Web Dev Index</title>
+  </head>
+  <!--CSS Font type is Urbanist-->
+     <body>
+      <div class="left">
+        <div class="logo">
+          <img src="./red-circle-icon-1.png" width="50px" height="50px" alt="" srcset="">
+        </div>
+        <div class="h1">
+          <h1>For Individuals</h1>
+        </div>
+        <div class="content">
+          <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, 
+            and improving organization wellness.
+          </p>
+        </div>
+      </div>
+    <form action="/signup" method="post">
+        <p>
+          <label class="fName">First Name</label><br>
+          <input type="text" name="first_name" placeholder="Enter your first name" required>
+        </p>
+        <p>
+          <label class="lName">Last Name</label><br>
+          <input type="text" name="last_name" placeholder="Enter your last name" required>
+        </p>
+
+        <p> <label class="gender">Gender</label><br>
+        <select name="gender" id="gender-select" required>
+          <option slected value="">Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Non-Binary"> Non-Binary</option>
+            <option value="none">Rather not say</option>
+        </select>
+        </p>
+        <p>
+          <label>Date of Birth</label><br>
+          <input type="date" required>
+        <p>
+          <label class="Weight">Weight (KG)</label><br>
+          <input type="number" name="weight" placeholder="Enter your weight" required>
+        </p>
+        <p>
+          <label class="Height">Height (CM)</label><br>
+          <input type="number" name="height" placeholder="Enter your height" required>
+        </p>
+
+        <p>
+          <label class="activity">Activity Level</label><br>
+          <select name="activity"  class="activity" required>
+            <option slected value="fffffff"> </option>
+            <option value=" ">aaa</option>
+            <option value=" ">aa    a </option>
+            <option value=" ">     </option>
+            <option value=" ">      </option>
+          </select>
+          </p>
+
+          </p>
+          <p>
+            <label>Password</label><br>
+            <input type="password"  class="pass" name="password">
+          </p>
+          <br>
+          <button class="submit">Register</button>
+          <br>
+          <div class="label">
+           By checking this box, you agree to our <a href="/terms">Terms of Use </a> and <a href="Policy">Privacy policy</a>
+         </div>
+    </form>
+  </body>
+</html>
